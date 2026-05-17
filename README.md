@@ -1,6 +1,7 @@
 # Profile Picture Updater
 
-![React Native](https://github.com/Angel43v3r/AD340-Assignment-TheDailyGrindTodoApp/blob/main/RESOURCES/reactnativeicon.png)
+![React Native](https://github.com/Angel43v3r/AD340-ProfilePictureUpdater/blob/main/profile-picture-updater/assets/images/react-logo%403x.png)
+
 ## Assignment 10 - Profile Picture Updater (Expo)
 ### AD340 - Mobile Application Development
 ### North Seattle College (Spring 2026)
@@ -136,6 +137,9 @@ You can then choose one of the following options:
 
 
 ## Assignment Instruction
+
+![Profile Picture Updater](https://github.com/Angel43v3r/AD340-ProfilePictureUpdater/blob/main/profile-picture-updater/assets/images/ProfilePictureUpdater.png)
+
 ### Task 1: Permissions & Setup
 To access sensitive hardware like the camera, you must request permission from the user.
 
