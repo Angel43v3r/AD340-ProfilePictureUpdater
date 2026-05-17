@@ -80,6 +80,10 @@ cd AD340-ProfilePictureUpdater
  ```bash
     npx create-expo-app@latest --template
 ```
+#### -OR-
+```bash
+   npx create-expo-app@latest <app-name>
+```
 
 Next, choose a template, I choose `Default`
 Lastly, name your app
