@@ -104,10 +104,10 @@ export default function HomeScreen() {
 
       <View style={styles.buttonContainer}>
         <Pressable style={styles.button} onPress={pickImage}>
-          <Text style={styles.buttonText}>Pick an Image</Text>
+          <Text style={styles.buttonText}>Choose From Gallery</Text>
         </Pressable>
         <Pressable style={styles.button} onPress={takePhoto}>
-          <Text style={styles.buttonText}>Take Photo</Text>
+          <Text style={styles.buttonText}>Take A Photo</Text>
         </Pressable>
       </View>
     </View >
