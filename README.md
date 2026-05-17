@@ -91,7 +91,7 @@ Lastly, name your app
 
 #### Install dependencies:
 ```bash
-npx expo install @react-native-async-storage/async-storage
+npx expo install expo-image-picker
 ```
 *This is for async storage*
 
