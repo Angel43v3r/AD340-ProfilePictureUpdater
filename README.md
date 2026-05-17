@@ -58,25 +58,25 @@ Make sure you have the following installed:
  ```
 
 ### Installation & Environment Setup
-1. Go to your terminal or bash, navigate to the folder you want to save the project:
+#### 1. Go to your terminal or bash, navigate to the folder you want to save the project:
 
 ```bash
 cd <Folder_Name>
 ```
-2. Clone the Repository
+#### 2. Clone the Repository
 In the folder you want to save your project in, run:
 
 ```bash
 git clone git@github.com:Angel43v3r/AD340-ProfilePictureUpdater.git
 ```
 
-3. Navigate to the app folder:
+#### 3. Navigate to the app folder:
 
 ```
 cd AD340-ProfilePictureUpdater
 ```
 
-4. If you haven't yet, install Expo:
+#### 4. If you haven't yet, install Expo:
  ```bash
     npx create-expo-app@latest --template
 ```
@@ -95,17 +95,17 @@ npx expo install @react-native-async-storage/async-storage
 ```
 *This is for async storage*
 
-5. Navigate to the folder
+#### 5. Navigate to the folder
 ```
 cd <Folder_Name>
 ```
 
-6. Start the development server:
+#### 6. Start the development server:
 ```bash
 npx expo start
 ```
 
-7. Once the server starts, **Expo Dev Tool** will open in your browser and a QR code will be displayed in the terminal.
+#### 7. Once the server starts, **Expo Dev Tool** will open in your browser and a QR code will be displayed in the terminal.
 
     You can then choose one of the following options:
     - Scan **QR code** (Recommended):
@@ -120,7 +120,7 @@ npx expo start
     - Run on **Web Browser**:
         - Press w -> open web
 
-8. Open the project in your preferred code editor such as VS Code.
+#### 8. Open the project in your preferred code editor such as VS Code.
 
 ## Running Test (OPTIONAL)
 I did not implement a test on this project. This is how to setup a Vitest as the test runner.
