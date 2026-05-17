@@ -85,6 +85,16 @@ cd AD340-ProfilePictureUpdater
    npx create-expo-app@latest <app-name>
 ```
 
+*NOTE: Make sure that your core Expo is the same or older version than the version in your phone Expo Go. If not downgrade to match your phone.*
+
+To downgrade to Expo version 54
+```bash
+npm install expo@54
+npx expo install --fix
+npx expo start --clear
+```
+
+
 Next, choose a template, I choose `Default`
 Lastly, name your app
 *Note this will automatically run npm install and install all the needed dependencies for Expo*
@@ -92,6 +102,7 @@ Lastly, name your app
 #### Install dependencies:
 ```bash
 npx expo install expo-image-picker
+npx expo install lucide-react-native react-native-svg
 ```
 *This is for async storage*
 
