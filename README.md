@@ -10,9 +10,10 @@
 ## Table Of Contents
 1. [Objective](#objective)
 2. [How to Use](#how-to-use)
-3. [Running Test](#running-test-optional)
-4. [Contributing](#contributing)
-5. [License](#license)
+3. [Assignment Instruction](#assignment-instruction)
+4. [Running Test](#running-test-optional)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 
 ## Objective
@@ -132,6 +133,44 @@ npx expo start
         - Press w -> open web
 
 #### 8. Open the project in your preferred code editor such as VS Code.
+
+
+## Assignment Instruction
+### Task 1: Permissions & Setup
+To access sensitive hardware like the camera, you must request permission from the user.
+
+1. **Import Hooks:** Use `useCameraPermissions` and `useMediaLibraryPermissions` from `expo-image-picker`.
+
+2. **Logic:** Create a function that checks if permissions are granted. If not, request them before opening the picker.
+
+### Task 2: Implementing the Picker Logic
+Create two primary functions to handle image selection.
+
+- **`pickImage()`:** Uses `launchImageLibraryAsync`. Set `allowsEditing: true` and an `aspect: [1, 1]` to ensure the user provides a square image suitable for a profile circle.
+
+- **`takePhoto()`:** Uses `launchCameraAsync` with similar editing settings.
+
+*Note: Remember that the result of these functions contains an `assets` array. You will need to extract the `uri` from the first element of that array.*
+
+### Task 3: The User Interface (UI)
+Build a clean interface that includes the following components:
+
+1. **The Avatar:** A `View` or `Image` component styled with a high `borderRadius` (e.g., `50` or higher) to create a perfect circle.
+
+2. **Placeholder:** If no image is selected, display a default icon (e.g., a "person" icon from `@expo/vector-icons`).
+
+Action Buttons: Two buttons—one for "Choose from Gallery" and one for "Take a Photo."
+
+### Task 4: Technical Requirements (The "Must-Haves")
+To pass this assignment, your code must handle the following:
+
+|**Feature** | **Requirement**                                                                                                          |
+|---------------------|-----------------------------------------------------------------------------------------------------------------|
+|**State Management** | Use `useState` to store the URI of the selected image.                                                          |
+|**Error Handling**	  | Ensure the app doesn't crash if a user cancels the picker without selecting a photo.                            |
+|**Aspect Ratio**	  | Enforce a **1:1 aspect ratio** during the editing phase.                                                        |
+|**Styling**	      | The profile picture must be centered and maintain a circular shape regardless of the original image dimensions. |
+
 
 ## Running Test (OPTIONAL)
 I did not implement a test on this project. This is how to setup a Vitest as the test runner.
